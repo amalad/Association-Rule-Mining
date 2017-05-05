@@ -1,0 +1,58 @@
+The frequent itemsets generated are as follows:
+[ handicapped-infants=n ] 236
+[ adoption-of-the-budget-resolution=y ] 253
+[ physician-fee-freeze=n ] 247
+[ el-salvador-aid=n ] 208
+[ el-salvador-aid=y ] 212
+[ religious-groups-in-schools=y ] 272
+[ anti-satellite-test-ban=y ] 239
+[ aid-to-nicaraguan-contras=y ] 242
+[ mx-missile=n ] 206
+[ mx-missile=y ] 207
+[ immigration=n ] 212
+[ immigration=y ] 216
+[ synfuels-corporation-cutback=n ] 264
+[ education-spending=n ] 233
+[ superfund-right-to-sue=n ] 201
+[ superfund-right-to-sue=y ] 209
+[ crime=y ] 248
+[ duty-free-exports=n ] 233
+[ export-administration-act-south-africa=y ] 269
+[ democrat ] 267
+[ religious-groups-in-schools=y crime=y ] 214
+[ adoption-of-the-budget-resolution=y physician-fee-freeze=n ] 219
+[ anti-satellite-test-ban=y aid-to-nicaraguan-contras=y ] 210
+[ adoption-of-the-budget-resolution=y anti-satellite-test-ban=y ] 201
+[ adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y ] 215
+[ adoption-of-the-budget-resolution=y education-spending=n ] 201
+[ anti-satellite-test-ban=y democrat ] 200
+[ adoption-of-the-budget-resolution=y democrat ] 231
+[ physician-fee-freeze=n anti-satellite-test-ban=y ] 197
+[ physician-fee-freeze=n aid-to-nicaraguan-contras=y ] 211
+[ education-spending=n democrat ] 213
+[ physician-fee-freeze=n education-spending=n ] 202
+[ physician-fee-freeze=n democrat ] 245
+[ aid-to-nicaraguan-contras=y democrat ] 218
+[ el-salvador-aid=n aid-to-nicaraguan-contras=y ] 204
+[ el-salvador-aid=n democrat ] 200
+[ el-salvador-aid=y religious-groups-in-schools=y ] 197
+[ adoption-of-the-budget-resolution=y physician-fee-freeze=n aid-to-nicaraguan-contras=y ] 198
+[ physician-fee-freeze=n education-spending=n democrat ] 201
+[ adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y democrat ] 203
+[ physician-fee-freeze=n aid-to-nicaraguan-contras=y democrat ] 210
+[ el-salvador-aid=n aid-to-nicaraguan-contras=y democrat ] 197
+[ adoption-of-the-budget-resolution=y physician-fee-freeze=n democrat ] 219
+[ adoption-of-the-budget-resolution=y physician-fee-freeze=n aid-to-nicaraguan-contras=y democrat ] 198
+
+The rules generated are as follows:
+physician-fee-freeze=n (247) => democrat (267) conf(0.9919028340080972)
+el-salvador-aid=n (208) => aid-to-nicaraguan-contras=y (242) conf(0.9807692307692307)
+el-salvador-aid=n (208) => democrat (267) conf(0.9615384615384616)
+physician-fee-freeze=n education-spending=n (202) => democrat (267) conf(0.995049504950495)
+aid-to-nicaraguan-contras=y democrat (218) => physician-fee-freeze=n (247) conf(0.963302752293578)
+physician-fee-freeze=n aid-to-nicaraguan-contras=y (211) => democrat (267) conf(0.995260663507109)
+el-salvador-aid=n democrat (200) => aid-to-nicaraguan-contras=y (242) conf(0.985)
+el-salvador-aid=n aid-to-nicaraguan-contras=y (204) => democrat (267) conf(0.9656862745098039)
+adoption-of-the-budget-resolution=y physician-fee-freeze=n (219) => democrat (267) conf(1.0)
+adoption-of-the-budget-resolution=y aid-to-nicaraguan-contras=y democrat (203) => physician-fee-freeze=n (247) conf(0.9753694581280788)
+adoption-of-the-budget-resolution=y physician-fee-freeze=n aid-to-nicaraguan-contras=y (198) => democrat (267) conf(1.0)
